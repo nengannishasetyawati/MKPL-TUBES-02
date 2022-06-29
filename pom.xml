@@ -13,7 +13,13 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>github-actions-example</name>
 	<description>Demo project for Spring Boot</description>
-
+	<distributionManagement>
+	    <repository>
+	      <id>github</id>
+	      <name>GitHub Packages</name>
+	      <url>https://maven.pkg.github.com/agaananda/MKPL-TUBES-02</url>
+	    </repository>
+	  </distributionManagement>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
