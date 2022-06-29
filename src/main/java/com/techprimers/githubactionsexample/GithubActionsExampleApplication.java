@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class GithubActionsExampleApplication {
 
-	public static void main(String[] mkpl) {
-		SpringApplication.run(GithubActionsExampleApplication.class, mkpl);
+	public static void main(String[] args) {
+		SpringApplication.run(GithubActionsExampleApplication.class, args);
 	}
 
 }
